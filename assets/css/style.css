@@ -1,0 +1,42 @@
+@font-face {
+    font-family: IranSans;
+    src: url('../fonts/Iranian\ Sans.ttf');
+}
+
+body , button {
+    font-family: IranSans;
+}
+
+* {
+    margin: 0px auto;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.app {
+    width: 1200px;
+}
+
+:root {
+    --primary-color: #00D9A5 ;
+    --secondary-color: rgba(110, 128, 122, 0.8);
+    --blue: #4E5AFE;
+    --white: #fff;
+    --dark: #444;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+
+
+
+
+
+
+
+
+
