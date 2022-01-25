@@ -135,4 +135,39 @@
     background-color:#212529;
 }
 
+/* CARD SERVICES */
+.card-service {
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.card {
+    width: 20%;
+    height: 100px;
+    background-color: var(--white);
+    border: none;
+    padding: 1.5rem;
+    box-shadow: 0 2px 6px rgb(154 159 151 / 20%);
+}
+
+.card i {
+    border-radius: 50%!important;
+    padding: 0.5rem;
+    font-size: 2rem;
+    color: var(--white);
+    height: auto;
+}
+
+.blue i {
+    background-color: #4E5AFE;
+}
+
+.green i {
+    background-color: #00D9A5 ;
+}
+
+.pink i {
+    background-color: #FF3D85;
+}
+
 
