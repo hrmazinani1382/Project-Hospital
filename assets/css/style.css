@@ -3,7 +3,7 @@
     src: url('../fonts/Iranian\ Sans.ttf');
 }
 
-body , button {
+body , button , input {
     font-family: IranSans;
 }
 
