@@ -2,8 +2,6 @@
 .topbar {
     width: 100%;
     display: flex;
-    /* justify-content: space-around;
-    align-items: center; */
     margin-top: 1rem;
 }
 
@@ -89,6 +87,52 @@
     position: absolute;
     padding: 1rem;
     color: var(--primary-color);
+}
+
+/* HERO SECTION */
+
+.hero-section {
+    position: relative;
+    line-height: 40px;
+    background-image: url('../Images/bg_image_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.hero-section h6 {
+    font-size: 1rem;
+}
+
+.hero-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.btn-banner {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding: 1rem 3rem;
+    border-color: transparent;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.btn-banner:hover {
+    background-color:#212529;
 }
 
 
