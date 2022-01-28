@@ -142,11 +142,13 @@
 }
 
 .card {
+    position: relative;
     width: 20%;
     height: 100px;
     background-color: var(--white);
     border: none;
     padding: 1.5rem;
+    margin-top: -8rem;
     box-shadow: 0 2px 6px rgb(154 159 151 / 20%);
 }
 
@@ -156,6 +158,20 @@
     font-size: 2rem;
     color: var(--white);
     height: auto;
+}
+
+.card > i , p {
+    display: inline-block;
+    text-align: center;
+}
+
+.card p {
+    position: absolute;
+    right: 0;
+    top: 37px;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
 .blue i {
