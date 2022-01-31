@@ -190,6 +190,7 @@
 /* SECTION HEALTH CENTER */
 .health-center-section {
     display: flex;
+    margin-bottom: 6rem;
 }
 
 .image-health-center {
@@ -232,5 +233,38 @@
 
 .btn:hover {
     background-color: #212529;
+}
+
+/* OUR DOCTORS */
+
+.title-section-doctors {
+    text-align: center;
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 1.5rem;
+}
+
+.profiles {
+    display: flex; 
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.team img {
+    width: 55%;
+    height:  auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.team p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.team span {
+    font-size: 15px;
+    color: var(--secondary-color);
 }
 
