@@ -3,7 +3,7 @@
     src: url('../fonts/Iranian\ Sans.ttf');
 }
 
-body , button , input {
+body , button , input , span {
     font-family: IranSans;
 }
 
@@ -30,6 +30,12 @@ a {
     text-decoration: none;
     color: var(--dark);
 }
+
+li {
+    display: inline-block;
+}
+
+
 
 
 
