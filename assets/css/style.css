@@ -1,10 +1,10 @@
 @font-face {
-    font-family: IranSans;
-    src: url('../fonts/Iranian\ Sans.ttf');
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Medium.ttf');
 }
 
 body , button , input , span {
-    font-family: IranSans;
+    font-family: Vazir , Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -24,15 +24,12 @@ body , button , input , span {
     --blue: #4E5AFE;
     --white: #fff;
     --dark: #444;
+    --footer-color: #2D3B38;
 }
 
 a {
     text-decoration: none;
     color: var(--dark);
-}
-
-li {
-    display: inline-block;
 }
 
 
