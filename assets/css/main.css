@@ -94,7 +94,7 @@
 .hero-section {
     position: relative;
     line-height: 40px;
-    background-image: url('../Images/bg_image_1.jpg');
+    background: linear-gradient(rgba(20 , 20 , 20 , 0.5) , rgba(20 , 20 , 20 , 0.5)) , url('../Images/bg_image_1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -109,10 +109,12 @@
 }
 
 .hero-section h6 {
+    color: var(--white);
     font-size: 1rem;
 }
 
 .hero-section h2 {
+    color: var(--white);
     font-size: 2.5rem;
     margin-bottom: 2.5rem;
 }
@@ -307,6 +309,12 @@
     text-align: right;
     padding: 1rem;
     color: rgb(37, 37, 37);
+    transition: .2s ease;
+    font-weight: 500;
+}
+
+.card-body h4:hover {
+    color: var(--primary-color);
 }
 
 .image-profile {
@@ -317,4 +325,39 @@
 
 .navbar-card {
     display: flex;
+}
+/* FOOTER */
+footer {
+    background-color: var(--footer-color);
+    height: 300px;
+}
+
+.page-footer {
+    display: flex;
+    text-align: right;
+}
+
+.page-footer span {
+    margin-top: 2rem;
+}
+
+.page-footer span h3 {
+    color: var(--white);
+}
+
+.tools {
+    margin-top: 1rem;
+}
+
+.tools li {
+    line-height: 31px;
+}
+
+.tools li a{
+    color: rgba(255, 255, 255, 0.6);
+    transition: 0.3s;
+}
+
+.tools li a:hover {
+    color: var(--white);
 }
