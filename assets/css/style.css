@@ -7,6 +7,10 @@ body , button , input , span {
     font-family: Vazir , Arial, Helvetica, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0px auto;
     padding: 0;
